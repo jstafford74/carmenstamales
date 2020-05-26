@@ -1,6 +1,6 @@
-import React, { Component }  from 'react';
-import { Navbar, Nav, Image, Row, Col } from 'react-bootstrap';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Navbar, Nav, Image } from 'react-bootstrap';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "../login";
 import SignUp from "../signup";
 
@@ -12,7 +12,7 @@ export default class Header extends Component {
                 <Navbar bg="light" expand="lg">
                     <div className="nav-group">
                         <Navbar.Brand href="#home">
-                            <Image src="logo.png" className="logo"/>
+                            <Image src="logo.png" className="logo" />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
